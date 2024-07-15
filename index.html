@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UN-Habitat Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+</head>
+<body>
+
+    <header>
+        <div class="control">
+            <div class="logo">
+                <img src="images/logo/logo.png" alt="un_habitat">
+            </div>
+            
+            <div class="container">
+                <div class="locales">
+                    <ul>
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">普通话</a></li>
+                        <li><a href="#">Español</a> </li>
+                        <li><a href="#">العربية</a></li>
+                        <li><a href="#">Türkçe</a></li>
+                        <li><a href="#">Français</a></li>
+                        <li><a href="#">Deutsch</a></li>
+                        <li><a href="#">Italiano</a></li>
+                    </ul>
+               </div>
+                <div class="search-container">
+                    <input type="text" placeholder="Search on learn platform">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                        </svg>                      
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu">
+            <input type="checkbox"  id="menu-bar">
+            <label for="menu-bar">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width: 30px; height: 50px;" >
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </label>
+    
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li ><a href="sections/course.html">courses</a></li>
+                    <li><a href="#">webinars</a></li>
+                    <li><a href="sections/faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+    
+            <nav class="btns">
+                <ul>
+                    <li><a href="#">register</a></li>
+                    <li><a href="#">login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="home">
+
+        <div class="video-container">
+
+            <video autoplay loop muted plays-inline >
+                <source src="videos/hero/h1.mp4" type="video/mp4">
+            </video>
+    
+            <div class="video-content">
+                <a href="#">Explore our courses</a>
+                <a href="#">Register</a>
+            </div>
+        </div>
+
+        <div class="hero-info">
+            <span>Engage with our community of learners</span>
+            <div class="counter-wrapper">
+                <div class="counter">
+                    <span data-purecounter-start="0" data-purecounter-end="41" data-purecounter-duration="1" class="purecounter"></span>
+                    <span>Courses</span>
+                </div>
+                <div class="vertical"></div>
+                <div class="counter">
+                    <span data-purecounter-start="0" data-purecounter-end="12223" data-purecounter-duration="1" class="purecounter"></span>
+                    <span>Users</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio">
+	
+            <div class="mainContainer">
+
+                <div class="portfolio-header"><span>Featured Courses</span></div>
+                
+                <!--  *****  Buttons Section Starts  *****  -->
+                <div class="button-group">
+                    <button class="button active" data-filter="*">all</button>
+                    <button class="button" data-filter=".urban">new urban agenda</button>
+                    <button class="button" data-filter=".high">measuring sustainable development goals indicators</button>
+                    <button class="button" data-filter=".middle">participatory slum upgrading programme</button>
+                    <button class="button" data-filter=".management">solid waste management</button>
+                    <button class="button" data-filter=".marketing">general </button>
+                    <button class="button" data-filter=".sdg">SDG cities learning path</button>
+                </div>
+                <!--  *****  Buttons Section Ends  *****  -->
+        
+                <!--  *****  Gallery Section Starts  *****  -->
+                <div class="gallery">
+                    
+                    <div class="item urban">
+                        <div class="image">
+                            <img src="images/courses/1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Course One</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ex! Ea enim at corporis aspernatur quae omnis molestias ipsam ex!
+                            </p>
+                            <div class="info">
+                                <span class="view-btn">view</span>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="item urban">
+                        <div class="image">
+                            <img src="images/courses/2.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Course Two</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ex! Ea enim at corporis aspernatur quae omnis molestias ipsam ex!
+                            </p>
+                            <div class="info">
+                                <span class="view-btn">view</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item urban">
+                        <div class="image">
+                            <img src="images/courses/3.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Course Three</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ex! Ea enim at corporis aspernatur quae omnis molestias ipsam ex!
+                            </p>
+                            <div class="info">
+                                <span class="view-btn">view</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="item high">
+                        <div class="image">
+                            <img src="images/courses/4.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Course One</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ex! Ea enim at corporis aspernatur quae omnis molestias ipsam ex!
+                            </p>
+                            <div class="info">
+                                <span class="view-btn">view</span>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="item high">
+                        <div class="image">
+                            <img src="images/courses/1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Course Two</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ex! Ea enim at corporis aspernatur quae omnis molestias ipsam ex!
+                            </p>
+                            <div class="info">
+                                <span class="view-btn">view</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item high">
+                        <div class="image">
+                            <img src="images/courses/2.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Course Three</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ex! Ea enim at corporis aspernatur quae omnis molestias ipsam ex!
+                            </p>
+                            <div class="info">
+                                <span class="view-btn">view</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="item middle">
+                        <div class="image">
+                            <img src="images/courses/3.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Course One</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ex! Ea enim at corporis aspernatur quae omnis molestias ipsam ex!
+                            </p>
+                            <div class="info">
+                                <span class="view-btn">view</span>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="item middle">
+                        <div class="image">
+                            <img src="images/courses/4.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Course Two</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ex! Ea enim at corporis aspernatur quae omnis molestias ipsam ex!
+                            </p>
+                            <div class="info">
+                                <span class="view-btn">view</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item middle">
+                        <div class="image">
+                            <img src="images/courses/1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Course Three</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ex! Ea enim at corporis aspernatur quae omnis molestias ipsam ex!
+                            </p>
+                            <div class="info">
+                                <span class="view-btn">view</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="item management">
+                        <div class="image">
+                            <img src="images/courses/2.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Course One</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ex! Ea enim at corporis aspernatur quae omnis molestias ipsam ex!
+                            </p>
+                            <div class="info">
+                                <span class="view-btn">view</span>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="item management">
+                        <div class="image">
+                            <img src="images/courses/3.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Course Two</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ex! Ea enim at corporis aspernatur quae omnis molestias ipsam ex!
+                            </p>
+                            <div class="info">
+                                <span class="view-btn">view</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item management">
+                        <div class="image">
+                            <img src="images/courses/4.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Course Three</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ex! Ea enim at corporis aspernatur quae omnis molestias ipsam ex!
+                            </p>
+                            <div class="info">
+                                <span class="view-btn">view</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item marketing">
+                        <div class="image">
+                            <img src="images/courses/1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Course One</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ex! Ea enim at corporis aspernatur quae omnis molestias ipsam ex!
+                            </p>
+                            <div class="info">
+                                <span class="view-btn">view</span>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="item marketing">
+                        <div class="image">
+                            <img src="images/courses/2.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Course Two</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ex! Ea enim at corporis aspernatur quae omnis molestias ipsam ex!
+                            </p>
+                            <div class="info">
+                                <span class="view-btn">view</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item marketing">
+                        <div class="image">
+                            <img src="images/courses/3.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Course Three</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ex! Ea enim at corporis aspernatur quae omnis molestias ipsam ex!
+                            </p>
+                            <div class="info">
+                                <span class="view-btn">view</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item sdg">
+                        <div class="image">
+                            <img src="images/courses/4.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Course Three</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ex! Ea enim at corporis aspernatur quae omnis molestias ipsam ex!
+                            </p>
+                            <div class="info">
+                                <span class="view-btn">view</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item sdg">
+                        <div class="image">
+                            <img src="images/courses/1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Course One</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ex! Ea enim at corporis aspernatur quae omnis molestias ipsam ex!
+                            </p>
+                            <div class="info">
+                                <span class="view-btn">view</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item sdg">
+                        <div class="image">
+                            <img src="images/courses/2.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Course Two</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ex! Ea enim at corporis aspernatur quae omnis molestias ipsam ex!
+                            </p>
+                            <div class="info">
+                                <span class="view-btn">view</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--  *****  Gallery Section Ends  *****  -->
+        
+            </div>
+        
+        </div>
+
+        <div class="webinars">
+            <div class="portfolio-header"><span>Technical Webinars</span></div>
+            <div class="webinar-wrapper">
+                <div class="webinar-img"><img src="images/extras/webinar.jpg" alt=""></div>
+                <div class="webinar-content">
+
+                    <div class="webinar-desc">
+                        <div class="date-block">
+                            <span>12</span>Dec
+                        </div>
+                        <div class="webinar-info">
+                            <div><span>Innovative Capacity Building: Instructional Design in a Nutshell: Creating Engaging and Impactful Adult Learning Experiences.</span></div>
+                            <div class="location-block">
+                            
+                                    <div class="svg-wrapper">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                         <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                        </svg>
+                                        <span>8:00 am - 5:00 pm</span>
+                                    </div>
+                             
+                              
+                                    <div class="svg-wrapper">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                                        </svg>
+                                        <span>Venice, Italy</span>
+                                    </div>
+                                  
+                              
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="webinar-desc">
+                        <div class="date-block">
+                            <span>28</span>Sep
+                        </div>
+                        <div class="webinar-info">
+                            <div><span>Innovative Capacity Building: Instructional Design in a Nutshell: Creating Engaging and Impactful Adult Learning Experiences.</span></div>
+                            <div class="location-block">
+                            
+                                    <div class="svg-wrapper">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                         <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                        </svg>
+                                        <span>11:00 am - 4:30 pm</span>
+                                    </div>
+                             
+                              
+                                    <div class="svg-wrapper">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                                        </svg>
+                                        <span>Birmingham, UK</span>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="social">
+            <div class="newsletter">
+                <div class="newsletter-content">
+                    <span>newsletter</span>
+                    <span>Receive news and updates in your inbox</span>
+                    <button>Subscribe to our newsletter</button>
+                </div>
+                <div class="block"></div>
+                <div class="media">
+                    <h1>Let's keep in touch</h1>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/UNHABITAT/"><img src="icons/facebook.png" alt="fb"></a>
+                        <a href="https://linkedin.com/company/un-habitat-united-nation-human-settlements-programme-"><img src="icons/linkedin.png" alt="in"></a>
+                        <a href="https://twitter.com/UNHABITAT"><img src="icons/x.png" alt="x"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile">
+                <div class="owner">
+                    <span>Download MOODLE Mobile APP</span>
+                </div>
+                <div class="mobile-desc"><span>Access learning at a touch of a button</span></div>
+                <div class="mobile-block">
+                    <img src="images/extras/google.png" alt="google">
+                    <img src="images/extras/apple.png" alt="apple">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="links">
+                <div class="owner-info">
+                    <div class="wrap">
+                        <img src="images/logo/un_habitat.png" alt="">
+                        <span class="footer-title">uN-habitat</span>
+                    </div>
+                    <div class="wrap-desc">
+                        <span>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Doloribus accusamus rerum vero laboriosam voluptate 
+                            sequi, at soluta quis numquam dolore! Doloribus accusamus rerum vero laboriosam
+                        </span>
+                    </div>
+
+                </div>
+                <div class="office">
+                    <span class="footer-title">office</span>
+                    <span>United Nations Human Settlements Programme (UN-Habitat)</span>
+                    <span>P.O Box 30030-00100</span>
+                    <span><a href="mailto:unhabitat@example.org">unhabitat-learn@un.org</a></span>
+                    <span>Nairobi, KENYA</span>
+                </div>
+                <div class="footer-nav-links">
+                    <span class="footer-title">Important Links</span>
+                    <span><a href="#">Home</a></span>
+                    <span><a href="#">About</a></span>
+                    <span><a href="course.html">Courses</a></span>
+                    <span><a href="#">webinars</a></span>
+                    <span><a href="faq.html">FAQ</a></span>
+                </div>
+                <div class="footer-newsletter">
+                    <span class="footer-title">newsletter</span>
+                    <div class="news-wrapper">
+                        <input type="text" placeholder="Email Address">
+                        <button>Subscribe</button>
+                    </div>
+                    <div class="social-wrapper">
+                        <div><a href="https://www.facebook.com/UNHABITAT/"><img src="icons/facebook.png" alt="fb"></a></div>
+                        <div><a href="https://linkedin.com/company/un-habitat-united-nation-human-settlements-programme-"><img src="icons/linkedin.png" alt="in"></a></div>
+                        <div><a href="https://twitter.com/UNHABITAT"><img src="icons/x.png" alt="x"></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright"><p>&copy;<span id="copyright"></span></p></div>
+
+    </section>
+    
+    <script>
+        var currentYear = new Date().getFullYear();
+        document.getElementById("copyright").innerHTML = currentYear + " United Nations Human Settlements Programme";
+    </script>
+    <script src="scripts/purecounter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/app.js"></script>
+    
+</body>
+</html>

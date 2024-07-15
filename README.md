@@ -1,2 +1,2 @@
-# un-habitat-learn-platform-prototype
-prototype
+# un-habitat
+UN-HABITAT template
