@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UN-Habitat Learning Platform</title>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
 
@@ -57,17 +59,52 @@
                 </ul>
             </nav>
     
-            <nav class="btns">
-                <ul>
-                    <li><a href="#">register</a></li>
-                    <li><a href="#">login</a></li>
-                </ul>
-            </nav>
+            <div class="auth">
+
+                <div class="register">
+                    register    
+                </div>
+
+                <div class="login-container">
+                    <div class="login" data-name="l-1">
+                       Login
+                    </div>
+                </div>
+
+            </div>
         </div>
     </header>
 
 
     <section class="section">
+
+        <div class="login-preview">
+            <div class="preview" data-target="l-1">
+                <i class="fas fa-times"></i>
+                <h3>Login</h3>
+                <form action="/submit_form" method="post" class="form-container">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                    
+                    <input type="submit" value="Login">
+                </form>
+
+                <p class="par1">Create new account</p>
+                <p class="user-par">Forgot username or password?</p>
+    
+                <p class="par2">
+                    In addition to self-paced e-learning courses,
+                    The UN-Habitat learning platform offers a number of free
+                    international technical webinars, Massive Open Online Courses,
+                    mobile learning solutions and other learning initiatives and events.
+                </p>
+                <p class="par1">Please subscribe to our newsletter if you want to stay tuned!</p>
+
+            </div>
+        </div>
 
         <div class="search-box">
             <ul>
@@ -271,6 +308,6 @@
         
 
     </section>
-    
+    <script src="../scripts/popup.js"></script>
 </body>
 </html>
